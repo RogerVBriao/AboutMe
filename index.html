@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Meu Portfólio</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+<body>
+
+  <header>
+    <h1>Roger Brião</h1>
+    <h3>Programador e Professor de Dança</h3>
+  </header>
+
+  <main>
+    <div class="carousel">
+
+      <div class="slide programer left">
+        <!-- Responsável pela lado do programador -->
+        <div class="container-text ">
+          <h3 class="about">Sobre mim:</h3>
+          <p class="p-about">
+            
+            Desde cedo, meu interesse por jogos e tecnologia foi uma motivação constante. Esse gosto me levou, em 2012, a ingressar no curso técnico integral em Informática do Instituto Federal Sul-Rio-Grandense (IFSUL) - campus Bagé. Durante esse período, tive meus primeiros contatos com a programação, com destaque para a linguagem Java, que foi meu principal foco de aprendizado.
+
+            Após concluir o curso técnico, em 2016, iniciei a graduação em Engenharia da Computação na Universidade Federal de Santa Maria (UFSM). No entanto, precisei interromper meus estudos em 2019 para retornar a Bagé. Com a chegada da pandemia, minhas atividades na área de computação foram suspensas temporariamente.
+
+            Atualmente, busco retomar minha formação e aprofundar meus conhecimentos por meio do bootcamp da plataforma de ensino DIO e do curso a distância de Programação Web oferecido pelo IFSUL-RS. Estou determinado a recuperar o tempo perdido e me reconectar com minha paixão pela tecnologia e pela programação.</p>
+        </div>
+        <div class="scroll-indicator">↓ Continue rolando</div>
+      </div>
+
+      <div class="slide central active">
+        <h1>Conectando <br>Códigos e Passos</h1>
+        <p>Bem-vindo ao meu portfólio pessoal!</p>
+        <div class="cta-buttons">
+          <button onclick="navigateTo('programador')"><span class="seta-left"></span>Conheça meu lado Programador </button>
+          <button onclick="navigateTo('dancarino')">Explore meu lado Dançarino <span class="seta-right"></span></button>
+        </div>
+        <p>Entre em contato: <a href="mailto:roger.v.briao@email.com"><br>roger.v.briao@gmail.com</a></p>
+      </div>
+
+      <div class="slide dancer right">
+        <!-- Responsável pela lado do professor de dança -->
+         <div class="container-text">
+          <h3 class="about">Sobre mim:</h3>
+          <p class="p-about">
+            
+            Desde cedo, fui incentivado a participar de grupos culturais e atividades relacionadas à dança. Minha jornada começou aos 8 anos, no grupo tradicionalista do Clube Caixeral. Aos 15, ingressei no grupo de danças de salão Edson Silva, dando início a uma nova etapa na minha formação artística.
+            
+            Em 2019, tive a oportunidade de integrar o CPF Piá do Sul, em Santa Maria, e de participar do maior festival de folclore da América Latina, o ENART. Já em 2020, junto ao grupo Pampeanos de Pelotas, representei o povo gaúcho no maior evento campeiro do Uruguai, La Patria Gaucha, durante um encontro étnico-cultural.
+            
+            Mais recentemente, em 2023, com o mesmo grupo, levei a cultura brasileira e gaúcha ao Festival Folclórico Internacional de Llanquihue, na região dos Lagos, no Chile. Esses momentos marcantes ajudaram a construir minha trajetória como dançarino e reafirmam meu compromisso em valorizar e promover a dança e a cultura.
+            
+            Atualmente, sou estudante em Licenciatura em Dança pela Uniasselvi e dedico-me a lecionar Danças de Salão, Danças Gaúchas de Salão e Danças Tradicionalistas Gaúchas, compartilhando essa paixão com meus alunos e perpetuando a rica herança cultural do nosso estado.</p>
+        </div>
+        <div class="scroll-indicator">↓ Continue rolando</div>
+      </div>
+ 
+  </div>
+  </main>
+
+  <footer>
+    <div class="buttonSlider">
+      <div class="keys-slider">
+        <input type="radio" name="slider" id="programador" value="0" >
+        <label for="programador">Programador</label>
+      
+        <input type="radio" name="slider" id="neutro" value="1" checked>
+        <label for="neutro">menu</label>
+      
+        <input type="radio" name="slider" id="professor" value="2">
+        <label for="professor">Professor</label>
+      
+        <div class="slider"></div>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/scripts/index.js"></script>
+</body>
+</html>

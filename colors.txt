@@ -1,0 +1,23 @@
+Azul Esverdeado (Teal): #008080
+(Cor principal para representar tecnologia e modernidade.)
+
+Laranja Suave: #FFA07A
+(Para contrastar com o azul e trazer a energia da dança.)
+
+Cinza Claro (Fundo): #F5F5F5
+(Para manter o fundo neutro e limpo.)
+
+Preto Suave (Texto Principal): #333333
+(Para boa legibilidade e um toque de sofisticação.)
+
+Branco (Destaque): #FFFFFF
+(Para elementos destacados e fundos de cartões.)
+
+Cinza Escuro (Bordas e Sombras): #888888
+(Usado para sutis divisões e sombras.)
+
+#0D7369
+#7DC6C2
+#ECE3D4
+#F2A488
+#8C4130
